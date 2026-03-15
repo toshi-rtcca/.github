@@ -1,0 +1,31 @@
+name: Bug
+description: Report an unexpected behavior
+title: "[Bug] "
+labels: ["bug"]
+
+body:
+- type: textarea
+  attributes:
+    label: Problem
+    description: What is happening?
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Expected
+    description: What did you expect to happen?
+
+- type: textarea
+  attributes:
+    label: Steps to reproduce
+    description: How can this be reproduced?
+    value: |
+      1. 
+      2. 
+      3. 
+
+- type: textarea
+  attributes:
+    label: Notes
+    description: Add any logs, screenshots, or extra context if needed.

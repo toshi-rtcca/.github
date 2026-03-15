@@ -1,20 +1,20 @@
-name: Feature
-description: Propose a new feature
-title: "[Feature] "
-labels: ["feature"]
+name: Task
+description: Track a small task or chore
+title: "[Task] "
+labels: ["task"]
 
 body:
 - type: textarea
   attributes:
     label: What
-    description: What do you want to add?
+    description: What should be done?
   validations:
     required: true
 
 - type: textarea
   attributes:
-    label: Why
-    description: Why is this worth doing?
+    label: Notes
+    description: Add any context, links, or constraints if needed.
 
 - type: textarea
   attributes:
