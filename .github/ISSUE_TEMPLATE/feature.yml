@@ -1,0 +1,36 @@
+name: Feature
+description: Propose a new feature
+title: "[Feature] "
+labels: ["feature"]
+
+body:
+
+- type: textarea
+  attributes:
+    label: Summary
+    description: What should be implemented?
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Motivation
+    description: Why is this needed?
+
+- type: textarea
+  attributes:
+    label: Scope
+    description: What is included / excluded?
+
+- type: textarea
+  attributes:
+    label: Solution
+    description: What is proposed solution?
+
+- type: textarea
+  attributes:
+    label: Acceptance Criteria
+    description: Definition of done
+    value: |
+      - [ ] condition1
+      - [ ] condition2
